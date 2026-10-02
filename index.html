@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="stylesheet" href="./src/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <script type="module" src="/src/main.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>my-portfolio</title>
+</head>
+
+<body class="bg-black text-white  font-roboto scrollbar-none ">
+
+  <header class="bg-gray-850 pt-2 pb-0.5 pl-5 pr-5  ">
+
+    <nav class="flex justify-between items-center">
+      <p class="font-bold text-2xl">Sahil <span class="text-red-500">Baisla</span></p>
+      <i class="fa-solid fa-bars fill-white text-2xl "></i>
+    </nav>
+
+  </header>
+
+  <main class="mt-5">
+
+    <!-- Hero-Section -->
+    <section class="md:flex md:items-center md:justify-center w-full opacity-0 translate-y-20 transition-all duration-700 ">
+
+      <!-- Introduction-Area -->
+      <div class="md:ml-5">
+        <div class="pl-5 pr-5 sm:text-center md:text-left ">
+          <p class="text-red-500 text-base font-semibold flex items-center gap-1 sm:justify-center md:justify-normal lg:text-lg">
+            <span class="text-xl">●</span>
+            <span>FULL STACK DEVELOPER</span>
+          </p>
+          <h1 class="text-4xl font-bold lg:text-5xl ">Hi, I'm <br><span class="text-red-500">Sahil Kumar.</span></h1>
+          <p class="text-xl mt-2 lg:hidden">I build modern web applications from frontend to backend</p>
+          <p class="hidden lg:block text-lg mt-2">I build modern, responsive, and scalable web applications from
+            frontend to backend. I focus on clean design, smooth user experiences, efficient performance, and
+            maintainable code, turning ideas into functional digital products using modern web technologies.
+          </p>
+          <div class="md:flex md:gap-4">
+            <button class="border p-2 w-full mt-4 rounded-3xl bg-red-500 text-black font-bold">View My Work</button>
+            <button class="border p-2 w-full mt-3 rounded-3xl border-red-500">Download Resume</button>
+          </div>
+        </div>
+
+        <!-- Call To Action -->
+        <div class="mt-4 flex items-center gap-9 ml-2  pl-5 pr-5 sm:justify-center sm:ml-0 md:justify-normal md:ml-2">
+          <i class="fa-brands fa-github text-2xl "></i>
+          <i class="fa-brands fa-linkedin text-2xl"></i>
+          <i class="fa-regular fa-envelope text-2xl"></i>
+        </div>
+      </div>
+
+      <!-- Hero Image -->
+      <div class="w-full h-80 overflow-hidden mt-5 md:w-100 lg:w-600 lg:h-150 ">
+        <img src="./src/assets/hero section.png" alt="hero-image" class="w-full h-full object-cover ">
+      </div>
+
+    </section>
+
+    <!-- Project-Showcase -->
+    <section class="mt-10  pl-5 pr-5 opacity-0 translate-y-20 transition-all duration-700">
+
+      <!-- Project-Showcase-Intro -->
+      <div>
+        <p class="text-red-500 text-base font-semibold flex items-center gap-1"> <span class="text-xl">●</span>
+          <span>FEATURED PRODUCTS</span>
+        </p>
+        <h1 class="text-3xl font-bold">Some Things <span class="text-red-500">I've Built.</span></h1>
+        <p class="text-md mt-2 text-muted leading-body md:text-lg">Here are a few projects I've worked on, showcasing my skills
+          in full stack development and problem solving.</p>
+      </div>
+
+
+      <!-- Project Cards -->
+
+      <!-- Project Card 1 -->
+      <div class="md:grid md:grid-cols-2 lg:grid-cols-4 gap-x-3">
+        <div class="bg-card border border-border p-4 rounded-xl mt-4 ">
+          <img src="./src/assets/Weather App Img.png" alt="" class="max-w-">
+          <h2 class="font-bold text-lg mt-3">Weather Forecasting App</h2>
+          <p class="text-muted leading-body">A responsive weather forecasting app that provides real-time temperature,
+            weather conditions, humidity, and
+            wind details for any location through a clean and user-friendly interface.
+          </p>
+
+          <div class="flex  mt-3 gap-3 flex-wrap">
+            <p class="bg-capsule text-capsuleText p-1 rounded-xl pl-3 pr-3 text-sm">React</p>
+            <p class="bg-capsule text-capsuleText p-1 rounded-xl pl-3 pr-3 text-sm">Node.Js</p>
+            <p class="bg-capsule text-capsuleText p-1 rounded-xl pl-3 pr-3 text-sm">MongoDB</p>
+          </div>
+
+        </div>
+
+
+        <!-- Project Card 2 -->
+        <div class="bg-card border border-border p-4 rounded-xl mt-4 ">
+          <img src="./src/assets/Smart To-Do App.png" alt="">
+          <h2 class="font-bold text-lg mt-3">Smart To-Do App</h2>
+          <p class="text-muted leading-body">A responsive weather forecasting app that provides real-time temperature,
+            weather conditions, humidity, and
+            wind details for any location through a clean and user-friendly interface.
+          </p>
+
+          <div class="flex  mt-3 gap-3 flex-wrap">
+            <p class="bg-capsule text-capsuleText p-1 rounded-xl pl-3 pr-3 text-sm">React</p>
+            <p class="bg-capsule text-capsuleText p-1 rounded-xl pl-3 pr-3 text-sm">Node.Js</p>
+            <p class="bg-capsule text-capsuleText p-1 rounded-xl pl-3 pr-3 text-sm">MongoDB</p>
+          </div>
+
+        </div>
+
+
+        <!-- Project Card 3 -->
+        <div class="bg-card border border-border p-4 rounded-xl mt-4">
+          <img src="./src/assets/Weather App Img.png" alt="">
+          <h2 class="font-bold text-lg mt-3">E-commerce Application</h2>
+          <p class="text-muted leading-body">A responsive e-commerce application featuring product browsing, search,
+            cart
+            management, and a smooth shopping experience through a clean and user-friendly interface.
+          </p>
+
+          <div class="flex  mt-3 gap-3 flex-wrap ">
+            <p class="bg-capsule text-capsuleText p-1 rounded-xl pl-3 pr-3 text-sm">React</p>
+            <p class="bg-capsule text-capsuleText p-1 rounded-xl pl-3 pr-3 text-sm">Node.Js</p>
+            <p class="bg-capsule text-capsuleText p-1 rounded-xl pl-3 pr-3 text-sm">MongoDB</p>
+          </div>
+
+
+
+        </div>
+
+        <div class="bg-card border border-border p-4 rounded-xl mt-4 ">
+          <img src="./src/assets/Smart To-Do App.png" alt="">
+          <h2 class="font-bold text-lg mt-3">Smart To-Do App</h2>
+          <p class="text-muted leading-body">A responsive weather forecasting app that provides real-time temperature,
+            weather conditions, humidity, and
+            wind details for any location through a clean and user-friendly interface.
+          </p>
+
+          <div class="flex  mt-3 gap-3 flex-wrap">
+            <p class="bg-capsule text-capsuleText p-1 rounded-xl pl-3 pr-3 text-sm">React</p>
+            <p class="bg-capsule text-capsuleText p-1 rounded-xl pl-3 pr-3 text-sm">Node.Js</p>
+            <p class="bg-capsule text-capsuleText p-1 rounded-xl pl-3 pr-3 text-sm">MongoDB</p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Tools and technologies Section  -->
+    <section class=" pl-5 pr-5 opacity-0 translate-y-20 transition-all duration-700">
+
+      <!-- Skills Section Intro -->
+      <div class="mt-10">
+        <p class="text-red-500 text-base font-semibold flex items-center gap-1"> <span class="text-xl">●</span>
+          <span>MY SKILLS</span>
+        </p>
+        <h1 class="text-3xl font-bold">Tools & <span class="text-red-500">Technologies.</span></h1>
+        <p class="text-md mt-2 text-muted leading-body md:text-lg">Technologies I use to build modern and scalable web
+          applications.</p>
+      </div>
+
+      <div class="md:grid md:grid-cols-2  md:gap-3 overflow-x-auto scrollbar-none lg:grid-cols-4">
+        <!-- Frontend Tools -->
+        <div class="bg-card border border-border p-4 rounded-xl mt-4 ">
+
+          <h2 class="font-bold text-lg">Frontend</h2>
+
+          <div class="flex items-center  gap-[clamp(12px,2.5vw,40px)]  max-w-full  mt-2 scrollbar-none  md:flex-wrap ">
+
+            <div
+              class="bg-iconbg border border-border p-2 pt-3 rounded-lg shrink-0 w-12 h-12 flex items-center justify-center">
+              <img src="./src/assets/Html img.png" alt="" class="w-10 h-9">
+            </div>
+
+            <div
+              class="bg-iconbg border border-border p-2 pt-3 rounded-lg shrink-0 w-12 h-12 flex items-center justify-center">
+              <img src="./src/assets/Css img.png" alt="" class="w-10 h-9">
+            </div>
+
+            <div
+              class="bg-iconbg border border-border p-1 pt-2 rounded-lg shrink-0 w-12 h-12 flex items-center justify-center">
+              <img src="./src/assets/Tailwind Css img.png" alt="" class="w-10">
+            </div>
+
+            <div
+              class="bg-iconbg border border-border p-2 rounded-lg shrink-0 w-12 h-12 flex items-center justify-center">
+              <img src="./src/assets/JavaScript-logo.png" alt="" class="w-9">
+            </div>
+
+            <div
+              class="bg-iconbg border border-border p-1 rounded-lg shrink-0 w-12 h-12 flex items-center justify-center">
+              <img src="./src/assets/React img.png" alt="" class="w-9">
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- Backend Tools  -->
+
+        <div class="bg-card border border-border p-4 rounded-xl mt-4 ">
+
+          <h2 class="font-bold text-lg">Backend</h2>
+
+          <div class="flex items-center gap-[clamp(12px,2.5vw,40px)] max-w-full mt-2  md:flex-wrap  ">
+
+            <div
+              class="bg-iconbg border border-border p-1 rounded-lg shrink-0 w-12 h-12 flex items-center justify-center">
+              <img src="./src/assets/node-js-icon.png" alt="" class="w-12">
+            </div>
+
+            <div
+              class="bg-iconbg border border-border p- rounded-lg shrink-0 w-12 h-12 flex items-center justify-center">
+              <img src="./src/assets/Express js img.png" alt="" class="w-12 shrink-0">
+            </div>
+
+            <div
+              class="bg-iconbg border border-border p-1 rounded-lg shrink-0 w-12 h-12 flex items-center justify-center">
+              <img src="./src/assets//mongo db.png" alt="" class="w-10">
+            </div>
+
+            <div
+              class="bg-iconbg border border-border p-2 rounded-lg shrink-0 w-12 h-12 flex items-center justify-center">
+              <img src="./src/assets//redux-icon.png" alt="" class="w-9">
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+        <!-- Other Tools  -->
+
+        <div class="bg-card border border-border p-4 rounded-xl mt-4  ">
+
+          <h2 class="font-bold text-lg">AI Tools</h2>
+
+          <div class="flex items-center  gap-[clamp(12px,2.5vw,40px)] max-w-full  mt-2  md:flex-wrap ">
+
+            <div
+              class="bg-iconbg border border-border p-1 rounded-lg shrink-0 w-12 h-12 flex items-center justify-center">
+              <img src="./src/assets/vs code.png" alt="" class="w-12">
+            </div>
+
+            <div
+              class="bg-iconbg border border-border p- rounded-lg shrink-0 w-12 h-12 flex items-center justify-center">
+              <img src="./src/assets/Figma-1-logo.png" alt="" class="w-12 shrink-0">
+            </div>
+
+            <div
+              class="bg-iconbg border border-border p-1 rounded-lg shrink-0 w-12 h-12 flex items-center justify-center">
+              <img src="./src/assets/postman.png" alt="" class="w-10">
+            </div>
+
+            <div
+              class="bg-iconbg border border-border p-2 rounded-lg shrink-0 w-12 h-12 flex items-center justify-center">
+              <img src="./src/assets/github-white-icon.png" alt="" class="w-9">
+            </div>
+
+            <div
+              class="bg-iconbg border border-border p-1 rounded-lg shrink-0 w-12 h-12 flex items-center justify-center">
+              <img src="./src/assets/git.png" alt="" class="w-9">
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="bg-card border border-border p-4 rounded-xl mt-4  ">
+
+          <h2 class="font-bold text-lg ">Other Tools</h2>
+
+          <div class="flex items-center  gap-[clamp(12px,2.5vw,40px)] max-w-full  mt-2   md:flex-wrap   ">
+
+            <div
+              class="bg-iconbg border border-border p-1 rounded-lg shrink-0 w-12 h-12 flex items-center justify-center">
+              <img src="./src/assets/vs code.png" alt="" class="w-12">
+            </div>
+
+            <div
+              class="bg-iconbg border border-border p- rounded-lg shrink-0 w-12 h-12 flex items-center justify-center">
+              <img src="./src/assets/Figma-1-logo.png" alt="" class="w-12 shrink-0">
+            </div>
+
+            <div
+              class="bg-iconbg border border-border p-1 rounded-lg shrink-0 w-12 h-12 flex items-center justify-center">
+              <img src="./src/assets/postman.png" alt="" class="w-10">
+            </div>
+
+            <div
+              class="bg-iconbg border border-border p-2 rounded-lg shrink-0 w-12 h-12 flex items-center justify-center">
+              <img src="./src/assets/github-white-icon.png" alt="" class="w-9">
+            </div>
+
+            <div
+              class="bg-iconbg border border-border p-1 rounded-lg shrink-0 w-12 h-12 flex items-center justify-center">
+              <img src="./src/assets/git.png" alt="" class="w-9">
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+    </section>
+
+
+    <!-- About Me Section -->
+
+    <section class=" pl-5 pr-5 mt-10 opacity-0 translate-y-20 transition-all duration-700">
+
+      <div class="md:flex items-center gap-10">
+
+        <div class=" hidden w-80  md:block shrink-0">
+          <img src="./src/assets/About me img.png" alt="" class="w-150">
+        </div>
+
+        <div>
+
+          <div class="mt-10">
+
+            <p class="text-red-500 text-base font-semibold flex items-center gap-1"> <span class="text-xl">●</span>
+              <span>ABOUT ME</span>
+            </p>
+            <h1 class="text-3xl font-bold">More About <span class="text-red-500">Me.</span></h1>
+            <p class="text-md mt-2 text-muted leading-body md:text-lg">I’m a Full Stack Developer who enjoys turning ideas into
+              fast,
+              responsive, and meaningful web experiences. I build modern applications using JavaScript, React, Tailwind
+              CSS,
+              Node.js, Express, and MongoDB, with a strong focus on clean UI, smooth user experience, and maintainable
+              code.
+              I’m driven by curiosity and continuous improvement, constantly challenging myself with real-world projects
+              and
+              new technologies to become a better developer with every build.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div
+        class="bg-card border border-border text-muted p-3 rounded-lg mt-10 md:flex md:justify-around md:items-center">
+
+        <div class="flex gap-3 ml-1 items-center">
+          <div class="border border-primary p-2 rounded-full w-10 h-10 flex justify-center items-center">
+            <i class="fa-regular fa-user text-primary text-xl"></i>
+          </div>
+          <div>
+            <p class="font-bold">Name</p>
+            <p>Sahil Kumar</p>
+          </div>
+
+        </div>
+
+        <div class="border-b mt-4 border-border mx-4 "></div>
+
+        <div class="flex gap-3 ml-1 mt-3 items-center md:mt-0">
+
+          <div class="border border-primary p-2 rounded-full w-10 h-10 flex justify-center items-center">
+            <i class="fa-solid fa-location-dot  text-primary text-xl"></i>
+          </div>
+          <div>
+            <p class="font-bold">Address</p>
+            <p>New Delhi, Delhi</p>
+          </div>
+
+        </div>
+
+        <div class="border-b mt-4 border-border mx-4"></div>
+
+        <div class="flex gap-3 ml-1 mt-3 items-center md:mt-0">
+          <div class="border border-primary p-2 rounded-full w-10 h-10 flex justify-center items-center">
+            <i class="fa-solid fa-book text-primary text-xl"></i>
+          </div>
+          <div>
+            <p class="font-bold">Education</p>
+            <p>B.com (Du Sol)</p>
+          </div>
+
+        </div>
+
+        <div class="border-b mt-4 border-border mx-4 "></div>
+
+        <div class="flex gap-3 ml-1 mt-3 items-center md:mt-0">
+
+          <div class="border border-primary p-2 rounded-full w-10 h-10 flex justify-center items-center">
+            <i class="fa-solid fa-star text-primary text-xl"></i>
+          </div>
+          <div>
+            <p class="font-bold">Interests</p>
+            <p>Gaming, Fitness, Tech</p>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+
+
+
+
+    </section>
+
+
+    <!-- Get in touch section -->
+
+    <section class=" pl-5 pr-5 flex items-center opacity-0 translate-y-20 transition-all duration-700">
+
+
+      <!-- Get in touch Intro  -->
+      <div class="w-full md:w-auto flex-1">
+        <div class="mt-10">
+
+          <p class="text-red-500 text-base font-semibold flex items-center gap-1"> <span class="text-xl">●</span>
+            <span>GET IN TOUCH</span>
+          </p>
+          <h1 class="text-3xl font-bold">Let's work <span class="text-red-500">together.</span></h1>
+          <p class="text-md mt-2 text-muted leading-body md:text-lg">
+            Have a project in mind or just want to say hi? Feel free to contact me.
+          </p>
+
+        </div>
+
+        <!-- CTA  -->
+
+        <div>
+          <div class="bg-card border border-border p-2 mt-5 rounded-md">
+            <input type="text" placeholder="Your Name" class="placeholder:text-muted w-full focus:outline-none">
+          </div>
+          <div class="bg-card border border-border p-2 mt-4 rounded-md">
+            <input type="email" placeholder="Your Email" class="placeholder:text-muted w-full focus:outline-none">
+          </div>
+          <div class="bg-card border border-border p-2 mt-4 rounded-md ">
+            <textarea name="" id="" placeholder="Your Message"
+              class="placeholder:text-muted w-full focus:outline-none h-40"></textarea>
+          </div>
+          <button class="border p-2 w-full mt-4 rounded-3xl bg-red-500 text-black font-bold">Send Message</button>
+        </div>
+      </div>
+
+      <div class="hidden md:block md:w-120 md:mt-30 md:ml-5 lg:w-150 ">
+        <img src="./src/assets/let's build img.png" alt="">
+      </div>
+
+
+
+    </section>
+  </main>
+
+  <footer >
+    <section class="opacity-0 translate-y-20 transition-all duration-700">
+    <div class="mt-15">
+
+
+      <h1 class="text-3xl font-bold text-center md:text-4xl">Thanks for<br><span class="text-red-500">visiting!</span></h1>
+      <p class="text-md mt-2 text-muted leading-body text-center mx-20 md:text-lg">
+        Have a project in mind or just want to say hi? Feel free to contact me.
+      </p>
+
+    </div>
+    <div class="mt-5 flex justify-center items-center gap-8 ml-2">
+      <i class="fa-brands fa-github text-2xl"></i>
+      <i class="fa-brands fa-linkedin text-2xl"></i>
+      <i class="fa-regular fa-envelope text-2xl"></i>
+    </div>
+
+    <div class="border-b mt-10 border-muted mx-8"></div>
+
+    <div class="mt-8 mb-5 md:text-lg">
+      <p class="text-muted text-center">&copy; 2026 Sahil Kumar.</p>
+      <p class="text-muted text-center">All rights reserved</p>
+    </div>
+    <div class="w-full md:h-100 overflow-hidden">
+    <img src="./src/assets/footer moon.png" alt="" class="w-full h-auto">
+    </div>
+    </section>
+  </footer>
+
+
+
+
+</body>
+
+</html>
